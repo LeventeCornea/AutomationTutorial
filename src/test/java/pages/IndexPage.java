@@ -30,4 +30,24 @@ public class IndexPage {
     public void enterOnFrameSubMenu(){
         elementHelper.clickJSLocator(IndexLocators.framesSubmenu);
     }
+
+    public void enterOnFormsMenu(){
+        elementHelper.clickJSLocator(IndexLocators.formsMenu);
+    }
+
+    public void enterOnPracticeFormsSubMenu(){
+        elementHelper.clickJSLocator(IndexLocators.practiceFormSubMenu);
+    }
+
+    public void enterOnElementsMenu(){
+        elementHelper.clickJSLocator(IndexLocators.elementsMenu);
+    }
+
+    public void enterOnWebTablesMenu(){
+        elementHelper.clickJSLocator(IndexLocators.webTablesSubmenu);
+    }
+
+    public void enterOnAddElement(){
+        elementHelper.clickJSLocator(IndexLocators.addElement);
+    }
 }
